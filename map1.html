@@ -19,7 +19,7 @@
     <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
     <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
     
-            <style> #map_92d4a9e2d7774e0ea1347ea5d993c7b9 {
+            <style> #map_9a526663c3da4f79a8b55199233ecd52 {
                 position : relative;
                 width : 100.0%;
                 height: 100.0%;
@@ -31,7 +31,7 @@
 </head>
 <body>    
     
-            <div class="folium-map" id="map_92d4a9e2d7774e0ea1347ea5d993c7b9" ></div>
+            <div class="folium-map" id="map_9a526663c3da4f79a8b55199233ecd52" ></div>
         
 </body>
 <script>    
@@ -43,8 +43,8 @@
                 var bounds = L.latLngBounds(southWest, northEast);
             
 
-            var map_92d4a9e2d7774e0ea1347ea5d993c7b9 = L.map(
-                                  'map_92d4a9e2d7774e0ea1347ea5d993c7b9',
+            var map_9a526663c3da4f79a8b55199233ecd52 = L.map(
+                                  'map_9a526663c3da4f79a8b55199233ecd52',
                                   {center: [47.73,-121.88],
                                   zoom: 6,
                                   maxBounds: bounds,
@@ -55,7 +55,7 @@
             
         
     
-            var tile_layer_dd65ab21959045538193631797ce87d8 = L.tileLayer(
+            var tile_layer_3134dbbeba76405fb8cfcf308cef5a6d = L.tileLayer(
                 'https://{s}.tiles.mapbox.com/v3/mapbox.world-bright/{z}/{x}/{y}.png',
                 {
                     maxZoom: 18,
@@ -65,109 +65,2056 @@
                     attribution: 'Map tiles by <a href="http://www.mapbox.com/m">Mapbox</a> Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>.',
                     detectRetina: false
                     }
-                ).addTo(map_92d4a9e2d7774e0ea1347ea5d993c7b9);
+                ).addTo(map_9a526663c3da4f79a8b55199233ecd52);
 
         
     
-            var feature_group_6591474e5b8c498f85154bff0fa126b2 = L.featureGroup(
-                ).addTo(map_92d4a9e2d7774e0ea1347ea5d993c7b9);
+            var feature_group_78c75baabeb0415291c902e43b1e3023 = L.featureGroup(
+                ).addTo(map_9a526663c3da4f79a8b55199233ecd52);
         
     
 
-            var marker_adfc5a88f8ff43e3af1ac155ec7df05d = L.marker(
-                [47.73,-121.88],
+            var marker_38d786736e09400e9f4a38c7d28ca435 = L.marker(
+                [48.7767982,-121.810997],
                 {
                     icon: new L.Icon.Default()
                     }
                 )
-                .addTo(feature_group_6591474e5b8c498f85154bff0fa126b2);
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
             
     
 
-                var icon_c8e0ed0bf99444dfbc3a2a4fcc75c488 = L.AwesomeMarkers.icon({
+                var icon_018fe864eed5472da53e13d11ca63355 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'grey',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_38d786736e09400e9f4a38c7d28ca435.setIcon(icon_018fe864eed5472da53e13d11ca63355);
+            
+    
+            var popup_1f4686d381ee4fa693bd69d9583fd483 = L.popup({maxWidth: '300'});
+
+            
+                var html_562c4cab44654af1a1ff0dd1f0dc2286 = $('<div id="html_562c4cab44654af1a1ff0dd1f0dc2286" style="width: 100.0%; height: 100.0%;">Name: Baker | Status: Historical | Type: Stratovolcanoes</div>')[0];
+                popup_1f4686d381ee4fa693bd69d9583fd483.setContent(html_562c4cab44654af1a1ff0dd1f0dc2286);
+            
+
+            marker_38d786736e09400e9f4a38c7d28ca435.bindPopup(popup_1f4686d381ee4fa693bd69d9583fd483);
+
+            
+        
+    
+
+            var marker_da1d6c3e7272420c9687f403c5f828bc = L.marker(
+                [48.1118011,-121.1110001],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_32898c4b580747788bb3a712f516b39a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_da1d6c3e7272420c9687f403c5f828bc.setIcon(icon_32898c4b580747788bb3a712f516b39a);
+            
+    
+            var popup_081785bb7216402888f6f2c21ff16765 = L.popup({maxWidth: '300'});
+
+            
+                var html_ac49b3044d494c058bc4693496edbc86 = $('<div id="html_ac49b3044d494c058bc4693496edbc86" style="width: 100.0%; height: 100.0%;">Name: Glacier Peak | Status: Tephrochronology | Type: Stratovolcano</div>')[0];
+                popup_081785bb7216402888f6f2c21ff16765.setContent(html_ac49b3044d494c058bc4693496edbc86);
+            
+
+            marker_da1d6c3e7272420c9687f403c5f828bc.bindPopup(popup_081785bb7216402888f6f2c21ff16765);
+
+            
+        
+    
+
+            var marker_49d277a8c34b4e0fa16d63d47ceef786 = L.marker(
+                [46.8698006,-121.7509995],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_835cf134eaf24b59ba936e08f2ff83eb = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'grey',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_49d277a8c34b4e0fa16d63d47ceef786.setIcon(icon_835cf134eaf24b59ba936e08f2ff83eb);
+            
+    
+            var popup_f7e205d31f974ff29294cd1c173a1abc = L.popup({maxWidth: '300'});
+
+            
+                var html_392b9d6de387405eb88e334367defdd3 = $('<div id="html_392b9d6de387405eb88e334367defdd3" style="width: 100.0%; height: 100.0%;">Name: Rainier | Status: Dendrochronology | Type: Stratovolcano</div>')[0];
+                popup_f7e205d31f974ff29294cd1c173a1abc.setContent(html_392b9d6de387405eb88e334367defdd3);
+            
+
+            marker_49d277a8c34b4e0fa16d63d47ceef786.bindPopup(popup_f7e205d31f974ff29294cd1c173a1abc);
+
+            
+        
+    
+
+            var marker_b9abef99d019425a93e4a72fd0313bc6 = L.marker(
+                [46.1997986,-122.1809998],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_08fc333acd2241ddb33d62ebbdf8a8ef = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'pink',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b9abef99d019425a93e4a72fd0313bc6.setIcon(icon_08fc333acd2241ddb33d62ebbdf8a8ef);
+            
+    
+            var popup_ca101877a46c45c5a3070ce0f6745e53 = L.popup({maxWidth: '300'});
+
+            
+                var html_f61bb700f1cb4c229a332154d17be6ae = $('<div id="html_f61bb700f1cb4c229a332154d17be6ae" style="width: 100.0%; height: 100.0%;">Name: St. Helens | Status: Historical | Type: Stratovolcano</div>')[0];
+                popup_ca101877a46c45c5a3070ce0f6745e53.setContent(html_f61bb700f1cb4c229a332154d17be6ae);
+            
+
+            marker_b9abef99d019425a93e4a72fd0313bc6.bindPopup(popup_ca101877a46c45c5a3070ce0f6745e53);
+
+            
+        
+    
+
+            var marker_32e6968e70f84d889e2aecf11f3e0d41 = L.marker(
+                [46.2057991,-121.4909973],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_31d2c1b4392e4dc58259e5d52f59caae = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_32e6968e70f84d889e2aecf11f3e0d41.setIcon(icon_31d2c1b4392e4dc58259e5d52f59caae);
+            
+    
+            var popup_68ec3d060fc74143b8bba2469c4853d9 = L.popup({maxWidth: '300'});
+
+            
+                var html_7352354c29dc4d748b427beee322df52 = $('<div id="html_7352354c29dc4d748b427beee322df52" style="width: 100.0%; height: 100.0%;">Name: Adams | Status: Tephrochronology | Type: Stratovolcano</div>')[0];
+                popup_68ec3d060fc74143b8bba2469c4853d9.setContent(html_7352354c29dc4d748b427beee322df52);
+            
+
+            marker_32e6968e70f84d889e2aecf11f3e0d41.bindPopup(popup_68ec3d060fc74143b8bba2469c4853d9);
+
+            
+        
+    
+
+            var marker_87fc5d265009462781324c7828c8739e = L.marker(
+                [45.8797989,-122.0810013],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_a2bc5ad9a4204ed0957fd9e3ded021c9 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_87fc5d265009462781324c7828c8739e.setIcon(icon_a2bc5ad9a4204ed0957fd9e3ded021c9);
+            
+    
+            var popup_e45fe5ffd39444ec9178de321d4fb32a = L.popup({maxWidth: '300'});
+
+            
+                var html_01763486ca7544dba7eeab40db4c2189 = $('<div id="html_01763486ca7544dba7eeab40db4c2189" style="width: 100.0%; height: 100.0%;">Name: West Crater | Status: Radiocarbon | Type: Volcanic field</div>')[0];
+                popup_e45fe5ffd39444ec9178de321d4fb32a.setContent(html_01763486ca7544dba7eeab40db4c2189);
+            
+
+            marker_87fc5d265009462781324c7828c8739e.bindPopup(popup_e45fe5ffd39444ec9178de321d4fb32a);
+
+            
+        
+    
+
+            var marker_42a6df9e782445a7a1b2b2ba4cbd99a1 = L.marker(
+                [45.9297981,-121.8209991],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_64b7cd65d95b43058ca60b7e5ddb0780 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_42a6df9e782445a7a1b2b2ba4cbd99a1.setIcon(icon_64b7cd65d95b43058ca60b7e5ddb0780);
+            
+    
+            var popup_e8e40ecfc57c473ab12da6ef5a98af10 = L.popup({maxWidth: '300'});
+
+            
+                var html_7d8b7ec450a14e498af27f2c924a1059 = $('<div id="html_7d8b7ec450a14e498af27f2c924a1059" style="width: 100.0%; height: 100.0%;">Name: Indian Heaven | Status: Radiocarbon | Type: Shield volcanoes</div>')[0];
+                popup_e8e40ecfc57c473ab12da6ef5a98af10.setContent(html_7d8b7ec450a14e498af27f2c924a1059);
+            
+
+            marker_42a6df9e782445a7a1b2b2ba4cbd99a1.bindPopup(popup_e8e40ecfc57c473ab12da6ef5a98af10);
+
+            
+        
+    
+
+            var marker_d0e9115195b64d489a9e47bfe3b8f76c = L.marker(
+                [45.3737984,-121.6910019],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_3449ae899c0346f784c50dbf6541bee5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'grey',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d0e9115195b64d489a9e47bfe3b8f76c.setIcon(icon_3449ae899c0346f784c50dbf6541bee5);
+            
+    
+            var popup_bd1d028a8d6141bcbdb1046257c2cff8 = L.popup({maxWidth: '300'});
+
+            
+                var html_e8636405d51643ca9f3411cc977f8353 = $('<div id="html_e8636405d51643ca9f3411cc977f8353" style="width: 100.0%; height: 100.0%;">Name: Hood | Status: Historical | Type: Stratovolcano</div>')[0];
+                popup_bd1d028a8d6141bcbdb1046257c2cff8.setContent(html_e8636405d51643ca9f3411cc977f8353);
+            
+
+            marker_d0e9115195b64d489a9e47bfe3b8f76c.bindPopup(popup_bd1d028a8d6141bcbdb1046257c2cff8);
+
+            
+        
+    
+
+            var marker_25d640d4d73741dca4a905ee60e2a66f = L.marker(
+                [44.6917992,-121.8010025],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_64340ef0fa3a4a8da13a6c62d3d4f031 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_25d640d4d73741dca4a905ee60e2a66f.setIcon(icon_64340ef0fa3a4a8da13a6c62d3d4f031);
+            
+    
+            var popup_d698c46f38c443e59c54ff24cee45175 = L.popup({maxWidth: '300'});
+
+            
+                var html_83c2a34dc6e44293ac139b32b3df5909 = $('<div id="html_83c2a34dc6e44293ac139b32b3df5909" style="width: 100.0%; height: 100.0%;">Name: Jefferson | Status: Varve Count | Type: Stratovolcano</div>')[0];
+                popup_d698c46f38c443e59c54ff24cee45175.setContent(html_83c2a34dc6e44293ac139b32b3df5909);
+            
+
+            marker_25d640d4d73741dca4a905ee60e2a66f.bindPopup(popup_d698c46f38c443e59c54ff24cee45175);
+
+            
+        
+    
+
+            var marker_90b919e3d08344e9b320708e2fd99c9b = L.marker(
+                [44.4197998,-121.7710037],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_c50079d637ca487092b48aa6716100ca = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_90b919e3d08344e9b320708e2fd99c9b.setIcon(icon_c50079d637ca487092b48aa6716100ca);
+            
+    
+            var popup_1e89e449477d4344a32c48c37e38e12a = L.popup({maxWidth: '300'});
+
+            
+                var html_c612de829de7499cb541e089de85a081 = $('<div id="html_c612de829de7499cb541e089de85a081" style="width: 100.0%; height: 100.0%;">Name: Blue Lake Crater | Status: Radiocarbon | Type: Maar</div>')[0];
+                popup_1e89e449477d4344a32c48c37e38e12a.setContent(html_c612de829de7499cb541e089de85a081);
+            
+
+            marker_90b919e3d08344e9b320708e2fd99c9b.bindPopup(popup_1e89e449477d4344a32c48c37e38e12a);
+
+            
+        
+    
+
+            var marker_020bc7eea9b14612ba8a736043e30c65 = L.marker(
+                [44.3797989,-121.9309998],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_6cbb3ffec55d49ba9b6ec62cc6195147 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_020bc7eea9b14612ba8a736043e30c65.setIcon(icon_6cbb3ffec55d49ba9b6ec62cc6195147);
+            
+    
+            var popup_8d29f5b0b686420da2044220e4f9dc90 = L.popup({maxWidth: '300'});
+
+            
+                var html_90c7e2d81fcc4775afb97acd3baccfb6 = $('<div id="html_90c7e2d81fcc4775afb97acd3baccfb6" style="width: 100.0%; height: 100.0%;">Name: Sand Mountain Field | Status: Radiocarbon | Type: Cinder cones</div>')[0];
+                popup_8d29f5b0b686420da2044220e4f9dc90.setContent(html_90c7e2d81fcc4775afb97acd3baccfb6);
+            
+
+            marker_020bc7eea9b14612ba8a736043e30c65.bindPopup(popup_8d29f5b0b686420da2044220e4f9dc90);
+
+            
+        
+    
+
+            var marker_587f529765e34772a5c3684a6630b328 = L.marker(
+                [44.3317986,-121.8310013],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_285d0031747b4e08966633aa5e3fe348 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_587f529765e34772a5c3684a6630b328.setIcon(icon_285d0031747b4e08966633aa5e3fe348);
+            
+    
+            var popup_dea84cc29213437a86322d98eee3df62 = L.popup({maxWidth: '300'});
+
+            
+                var html_9ef5108591524594b269d11fb471a7e2 = $('<div id="html_9ef5108591524594b269d11fb471a7e2" style="width: 100.0%; height: 100.0%;">Name: Washington | Status: Radiocarbon | Type: Shield volcano</div>')[0];
+                popup_dea84cc29213437a86322d98eee3df62.setContent(html_9ef5108591524594b269d11fb471a7e2);
+            
+
+            marker_587f529765e34772a5c3684a6630b328.bindPopup(popup_dea84cc29213437a86322d98eee3df62);
+
+            
+        
+    
+
+            var marker_62110eb94636464e8df1250e7af56e4c = L.marker(
+                [44.2848015,-121.8410034],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_88b5feb0484d405eafe71ae87cbd7439 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_62110eb94636464e8df1250e7af56e4c.setIcon(icon_88b5feb0484d405eafe71ae87cbd7439);
+            
+    
+            var popup_36c0486aee174df8b380d58b15918eae = L.popup({maxWidth: '300'});
+
+            
+                var html_2467f53b0b1c4d309d2768f1cef65a90 = $('<div id="html_2467f53b0b1c4d309d2768f1cef65a90" style="width: 100.0%; height: 100.0%;">Name: Belknap | Status: Radiocarbon | Type: Shield volcanoes</div>')[0];
+                popup_36c0486aee174df8b380d58b15918eae.setContent(html_2467f53b0b1c4d309d2768f1cef65a90);
+            
+
+            marker_62110eb94636464e8df1250e7af56e4c.bindPopup(popup_36c0486aee174df8b380d58b15918eae);
+
+            
+        
+    
+
+            var marker_3228747feae745d0b9cc89afd04e6ddd = L.marker(
+                [44.1697998,-121.7710037],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_169e2a2236814a23927e22b361023ccd = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3228747feae745d0b9cc89afd04e6ddd.setIcon(icon_169e2a2236814a23927e22b361023ccd);
+            
+    
+            var popup_0dc5e70891194ac78addb5456b5b3d12 = L.popup({maxWidth: '300'});
+
+            
+                var html_bc1961a891024e5799eb82f432188e85 = $('<div id="html_bc1961a891024e5799eb82f432188e85" style="width: 100.0%; height: 100.0%;">Name: North Sister Field | Status: Radiocarbon | Type: Complex volcano</div>')[0];
+                popup_0dc5e70891194ac78addb5456b5b3d12.setContent(html_bc1961a891024e5799eb82f432188e85);
+            
+
+            marker_3228747feae745d0b9cc89afd04e6ddd.bindPopup(popup_0dc5e70891194ac78addb5456b5b3d12);
+
+            
+        
+    
+
+            var marker_d5a5e1529436498c9a04ac1a91a45fca = L.marker(
+                [44.0998001,-121.7710037],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_7f2d0968daa941c6a560b4818515126a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d5a5e1529436498c9a04ac1a91a45fca.setIcon(icon_7f2d0968daa941c6a560b4818515126a);
+            
+    
+            var popup_dcdc6c1c4c6b4bb4941b5763a722c38a = L.popup({maxWidth: '300'});
+
+            
+                var html_e2448423b9f34ac4b0923a55466c1863 = $('<div id="html_e2448423b9f34ac4b0923a55466c1863" style="width: 100.0%; height: 100.0%;">Name: South Sister | Status: Radiocarbon | Type: Complex volcano</div>')[0];
+                popup_dcdc6c1c4c6b4bb4941b5763a722c38a.setContent(html_e2448423b9f34ac4b0923a55466c1863);
+            
+
+            marker_d5a5e1529436498c9a04ac1a91a45fca.bindPopup(popup_dcdc6c1c4c6b4bb4941b5763a722c38a);
+
+            
+        
+    
+
+            var marker_9e5a761d3f8f4b798e7594647ed8e8b5 = L.marker(
+                [43.9788017,-121.6809998],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_49b5dbd9c3544d3ebacdfe15a1ce0dd6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9e5a761d3f8f4b798e7594647ed8e8b5.setIcon(icon_49b5dbd9c3544d3ebacdfe15a1ce0dd6);
+            
+    
+            var popup_90eab1dd5d164a13a2a245c595b1251b = L.popup({maxWidth: '300'});
+
+            
+                var html_cfd0d6dbde774f428466bf8db75a5d05 = $('<div id="html_cfd0d6dbde774f428466bf8db75a5d05" style="width: 100.0%; height: 100.0%;">Name: Bachelor | Status: Tephrochronology | Type: Stratovolcano</div>')[0];
+                popup_90eab1dd5d164a13a2a245c595b1251b.setContent(html_cfd0d6dbde774f428466bf8db75a5d05);
+            
+
+            marker_9e5a761d3f8f4b798e7594647ed8e8b5.bindPopup(popup_90eab1dd5d164a13a2a245c595b1251b);
+
+            
+        
+    
+
+            var marker_e6972cf1d17d4abaa263ce812b8d18e2 = L.marker(
+                [43.7218018,-121.2210007],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_4f990e7b52d1426996c460ae8b303633 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e6972cf1d17d4abaa263ce812b8d18e2.setIcon(icon_4f990e7b52d1426996c460ae8b303633);
+            
+    
+            var popup_16d2ad25d0c04424838fc86e6a117ff6 = L.popup({maxWidth: '300'});
+
+            
+                var html_92dd3d784a424d74a58808564f876ad0 = $('<div id="html_92dd3d784a424d74a58808564f876ad0" style="width: 100.0%; height: 100.0%;">Name: Newberry Volcano | Status: Radiocarbon | Type: Shield volcano</div>')[0];
+                popup_16d2ad25d0c04424838fc86e6a117ff6.setContent(html_92dd3d784a424d74a58808564f876ad0);
+            
+
+            marker_e6972cf1d17d4abaa263ce812b8d18e2.bindPopup(popup_16d2ad25d0c04424838fc86e6a117ff6);
+
+            
+        
+    
+
+            var marker_103ee15f3c6743bd8852124b6d340727 = L.marker(
+                [43.5698013,-121.8209991],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_a9fd22e3b4994a628a3f57da64bee24a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_103ee15f3c6743bd8852124b6d340727.setIcon(icon_a9fd22e3b4994a628a3f57da64bee24a);
+            
+    
+            var popup_c821279656534b24b94b7e9dbb9a5091 = L.popup({maxWidth: '300'});
+
+            
+                var html_a1bfba99e8c947bf8d4c6c4b608afc40 = $('<div id="html_a1bfba99e8c947bf8d4c6c4b608afc40" style="width: 100.0%; height: 100.0%;">Name: Davis Lake | Status: Radiocarbon | Type: Volcanic field</div>')[0];
+                popup_c821279656534b24b94b7e9dbb9a5091.setContent(html_a1bfba99e8c947bf8d4c6c4b608afc40);
+            
+
+            marker_103ee15f3c6743bd8852124b6d340727.bindPopup(popup_c821279656534b24b94b7e9dbb9a5091);
+
+            
+        
+    
+
+            var marker_3c43169bb6294c66aa62fa3adce0654e = L.marker(
+                [43.5119019,-120.8610001],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_585934c6d5084a5390b0757f5da31f93 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3c43169bb6294c66aa62fa3adce0654e.setIcon(icon_585934c6d5084a5390b0757f5da31f93);
+            
+    
+            var popup_ee8e56d053574ea18f4c07dc328c44f5 = L.popup({maxWidth: '300'});
+
+            
+                var html_b59f40360a7d44839d1a727fa989289a = $('<div id="html_b59f40360a7d44839d1a727fa989289a" style="width: 100.0%; height: 100.0%;">Name: Devils Garden | Status: Holocene? | Type: Volcanic field</div>')[0];
+                popup_ee8e56d053574ea18f4c07dc328c44f5.setContent(html_b59f40360a7d44839d1a727fa989289a);
+            
+
+            marker_3c43169bb6294c66aa62fa3adce0654e.bindPopup(popup_ee8e56d053574ea18f4c07dc328c44f5);
+
+            
+        
+    
+
+            var marker_607d2ce3b7334157bb50fa0f07cc59e4 = L.marker(
+                [43.240799,-122.1009979],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_b47fb15a7fe94e609bc46064bfd0756e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_607d2ce3b7334157bb50fa0f07cc59e4.setIcon(icon_b47fb15a7fe94e609bc46064bfd0756e);
+            
+    
+            var popup_6561c62c57a842c596efd95124bb06e3 = L.popup({maxWidth: '300'});
+
+            
+                var html_99e2d7891cd146acac702fda5227c43b = $('<div id="html_99e2d7891cd146acac702fda5227c43b" style="width: 100.0%; height: 100.0%;">Name: Cinnamon Butte | Status: Holocene? | Type: Cinder cones</div>')[0];
+                popup_6561c62c57a842c596efd95124bb06e3.setContent(html_99e2d7891cd146acac702fda5227c43b);
+            
+
+            marker_607d2ce3b7334157bb50fa0f07cc59e4.bindPopup(popup_6561c62c57a842c596efd95124bb06e3);
+
+            
+        
+    
+
+            var marker_d27ac8cd6f8544969264fe2c24a6894f = L.marker(
+                [43.4719009,-120.7509995],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_3ba494f919ef4a49967b3342bb60ba8a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d27ac8cd6f8544969264fe2c24a6894f.setIcon(icon_3ba494f919ef4a49967b3342bb60ba8a);
+            
+    
+            var popup_dbaa6a73e29b452381045671e80602b7 = L.popup({maxWidth: '300'});
+
+            
+                var html_b0f31e1117134c43bca2e89f6e677ead = $('<div id="html_b0f31e1117134c43bca2e89f6e677ead" style="width: 100.0%; height: 100.0%;">Name: Squaw Ridge Lava Field | Status: Holocene? | Type: Volcanic field</div>')[0];
+                popup_dbaa6a73e29b452381045671e80602b7.setContent(html_b0f31e1117134c43bca2e89f6e677ead);
+            
+
+            marker_d27ac8cd6f8544969264fe2c24a6894f.bindPopup(popup_dbaa6a73e29b452381045671e80602b7);
+
+            
+        
+    
+
+            var marker_5d05e24a5fd444f6a61c7a3adeb8918f = L.marker(
+                [43.3609009,-120.6610031],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_9c732b26e45f4b0f9592a3b5f901bd08 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5d05e24a5fd444f6a61c7a3adeb8918f.setIcon(icon_9c732b26e45f4b0f9592a3b5f901bd08);
+            
+    
+            var popup_e7b822a6439f4c6cbad7e0a830bc717e = L.popup({maxWidth: '300'});
+
+            
+                var html_e3bf461bbc87407fb2d5808661221975 = $('<div id="html_e3bf461bbc87407fb2d5808661221975" style="width: 100.0%; height: 100.0%;">Name: Four Craters Lava Field | Status: Holocene? | Type: Volcanic field</div>')[0];
+                popup_e7b822a6439f4c6cbad7e0a830bc717e.setContent(html_e3bf461bbc87407fb2d5808661221975);
+            
+
+            marker_5d05e24a5fd444f6a61c7a3adeb8918f.bindPopup(popup_e7b822a6439f4c6cbad7e0a830bc717e);
+
+            
+        
+    
+
+            var marker_51b3c01a9036424a9c94945b9102d73f = L.marker(
+                [42.9299011,-122.1210022],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_8e9e13c840724910b91def4cfd9e290d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_51b3c01a9036424a9c94945b9102d73f.setIcon(icon_8e9e13c840724910b91def4cfd9e290d);
+            
+    
+            var popup_cd50bdd30ae74d87a6bbd468ea1d9348 = L.popup({maxWidth: '300'});
+
+            
+                var html_1823219bbc0140de91b252a28107f1af = $('<div id="html_1823219bbc0140de91b252a28107f1af" style="width: 100.0%; height: 100.0%;">Name: Crater Lake | Status: Radiocarbon | Type: Caldera</div>')[0];
+                popup_cd50bdd30ae74d87a6bbd468ea1d9348.setContent(html_1823219bbc0140de91b252a28107f1af);
+            
+
+            marker_51b3c01a9036424a9c94945b9102d73f.bindPopup(popup_cd50bdd30ae74d87a6bbd468ea1d9348);
+
+            
+        
+    
+
+            var marker_e6d222c551d844bcb4478cf6a6b86215 = L.marker(
+                [44.4299011,-110.6709976],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_673c887b31e948c590da0ad30ed85df4 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e6d222c551d844bcb4478cf6a6b86215.setIcon(icon_673c887b31e948c590da0ad30ed85df4);
+            
+    
+            var popup_9ad051bbcd9d4591b7b59e67f39c43dd = L.popup({maxWidth: '300'});
+
+            
+                var html_c26b78d4fe044f48bd2ba35eee10f5c6 = $('<div id="html_c26b78d4fe044f48bd2ba35eee10f5c6" style="width: 100.0%; height: 100.0%;">Name: Yellowstone | Status: Tephrochronology | Type: Calderas</div>')[0];
+                popup_9ad051bbcd9d4591b7b59e67f39c43dd.setContent(html_c26b78d4fe044f48bd2ba35eee10f5c6);
+            
+
+            marker_e6d222c551d844bcb4478cf6a6b86215.bindPopup(popup_9ad051bbcd9d4591b7b59e67f39c43dd);
+
+            
+        
+    
+
+            var marker_146ecaf29f994277acc0de742893e14e = L.marker(
+                [43.0998993,-118.7509995],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_3d1805b568fa4adcad7f36b7bf45edff = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_146ecaf29f994277acc0de742893e14e.setIcon(icon_3d1805b568fa4adcad7f36b7bf45edff);
+            
+    
+            var popup_daed974ede7c48ac87d7f6bb0e194c37 = L.popup({maxWidth: '300'});
+
+            
+                var html_c6beaa8917814995989a7765355a4ab7 = $('<div id="html_c6beaa8917814995989a7765355a4ab7" style="width: 100.0%; height: 100.0%;">Name: Diamond Craters | Status: Holocene? | Type: Volcanic field</div>')[0];
+                popup_daed974ede7c48ac87d7f6bb0e194c37.setContent(html_c6beaa8917814995989a7765355a4ab7);
+            
+
+            marker_146ecaf29f994277acc0de742893e14e.bindPopup(popup_daed974ede7c48ac87d7f6bb0e194c37);
+
+            
+        
+    
+
+            var marker_c4f2692580be4a1d99a082b333bbc2d5 = L.marker(
+                [43.1498985,-117.4710007],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_4c650cff8d2b4dafad83743e30be33f7 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c4f2692580be4a1d99a082b333bbc2d5.setIcon(icon_4c650cff8d2b4dafad83743e30be33f7);
+            
+    
+            var popup_f04c650ae3c54c82a88fdf26ef46f407 = L.popup({maxWidth: '300'});
+
+            
+                var html_86516ab7241444488cb3537fd6afccbb = $('<div id="html_86516ab7241444488cb3537fd6afccbb" style="width: 100.0%; height: 100.0%;">Name: Jordan Craters | Status: Radiocarbon | Type: Volcanic field</div>')[0];
+                popup_f04c650ae3c54c82a88fdf26ef46f407.setContent(html_86516ab7241444488cb3537fd6afccbb);
+            
+
+            marker_c4f2692580be4a1d99a082b333bbc2d5.bindPopup(popup_f04c650ae3c54c82a88fdf26ef46f407);
+
+            
+        
+    
+
+            var marker_e5b8bec746274bd3a60e1c1f5dc1f948 = L.marker(
+                [42.9999008,-117.8010025],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_2d767f75646c4ce685a64a12115facc9 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e5b8bec746274bd3a60e1c1f5dc1f948.setIcon(icon_2d767f75646c4ce685a64a12115facc9);
+            
+    
+            var popup_12ccd18b8e1a4d87a79f926e1f376207 = L.popup({maxWidth: '300'});
+
+            
+                var html_df840bd3696c4695ab543671c4cd20c7 = $('<div id="html_df840bd3696c4695ab543671c4cd20c7" style="width: 100.0%; height: 100.0%;">Name: Saddle Butte | Status: Holocene? | Type: Volcanic field</div>')[0];
+                popup_12ccd18b8e1a4d87a79f926e1f376207.setContent(html_df840bd3696c4695ab543671c4cd20c7);
+            
+
+            marker_e5b8bec746274bd3a60e1c1f5dc1f948.bindPopup(popup_12ccd18b8e1a4d87a79f926e1f376207);
+
+            
+        
+    
+
+            var marker_e8901dfa7c4c437b85c617f7103a6af8 = L.marker(
+                [43.419899,-113.5009995],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_10e327063b9b4e669cc9ea7e9b861b2c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e8901dfa7c4c437b85c617f7103a6af8.setIcon(icon_10e327063b9b4e669cc9ea7e9b861b2c);
+            
+    
+            var popup_107f27861dd14b00889c023c1b734a78 = L.popup({maxWidth: '300'});
+
+            
+                var html_365dc114f71545eca77d21112ac49a95 = $('<div id="html_365dc114f71545eca77d21112ac49a95" style="width: 100.0%; height: 100.0%;">Name: Craters of the Moon | Status: Radiocarbon | Type: Cinder cones</div>')[0];
+                popup_107f27861dd14b00889c023c1b734a78.setContent(html_365dc114f71545eca77d21112ac49a95);
+            
+
+            marker_e8901dfa7c4c437b85c617f7103a6af8.bindPopup(popup_107f27861dd14b00889c023c1b734a78);
+
+            
+        
+    
+
+            var marker_6fef416be9e649468679c65549522a74 = L.marker(
+                [43.4999008,-112.4509964],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_8dd3ad5e7ec142ac99bd3a063fe07802 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6fef416be9e649468679c65549522a74.setIcon(icon_8dd3ad5e7ec142ac99bd3a063fe07802);
+            
+    
+            var popup_8aa58fa318d44273ba32f769f8709f03 = L.popup({maxWidth: '300'});
+
+            
+                var html_4fd1e60a0d4242dd83c0e0bdcb2bb366 = $('<div id="html_4fd1e60a0d4242dd83c0e0bdcb2bb366" style="width: 100.0%; height: 100.0%;">Name: Hell&#39;s Half Acre | Status: Radiocarbon | Type: Shield volcano</div>')[0];
+                popup_8aa58fa318d44273ba32f769f8709f03.setContent(html_4fd1e60a0d4242dd83c0e0bdcb2bb366);
+            
+
+            marker_6fef416be9e649468679c65549522a74.bindPopup(popup_8aa58fa318d44273ba32f769f8709f03);
+
+            
+        
+    
+
+            var marker_87d95e17ea864ffcb6bcab06b6f77315 = L.marker(
+                [43.1799011,-114.3509979],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_8d4362e95fa0465aadbfebd7671c0d44 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_87d95e17ea864ffcb6bcab06b6f77315.setIcon(icon_8d4362e95fa0465aadbfebd7671c0d44);
+            
+    
+            var popup_8eaeb0bb100e4f9096a743033f6cdf54 = L.popup({maxWidth: '300'});
+
+            
+                var html_a483e2b1e3a2445abd3b67fc77cb4269 = $('<div id="html_a483e2b1e3a2445abd3b67fc77cb4269" style="width: 100.0%; height: 100.0%;">Name: Shoshone Lava Field | Status: Holocene | Type: Shield volcano</div>')[0];
+                popup_8eaeb0bb100e4f9096a743033f6cdf54.setContent(html_a483e2b1e3a2445abd3b67fc77cb4269);
+            
+
+            marker_87d95e17ea864ffcb6bcab06b6f77315.bindPopup(popup_8eaeb0bb100e4f9096a743033f6cdf54);
+
+            
+        
+    
+
+            var marker_4eb8dd4f3bf74575b44c8331b66c8796 = L.marker(
+                [42.6058998,-117.5810013],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_87f6dd2b26d74a0ca58b6b89a365597f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4eb8dd4f3bf74575b44c8331b66c8796.setIcon(icon_87f6dd2b26d74a0ca58b6b89a365597f);
+            
+    
+            var popup_49e674dcc7f945af849ce4942b60c6fb = L.popup({maxWidth: '300'});
+
+            
+                var html_70ac148d129740559edd1023798a02c5 = $('<div id="html_70ac148d129740559edd1023798a02c5" style="width: 100.0%; height: 100.0%;">Name: Jackies Butte | Status: Holocene? | Type: Volcanic field</div>')[0];
+                popup_49e674dcc7f945af849ce4942b60c6fb.setContent(html_70ac148d129740559edd1023798a02c5);
+            
+
+            marker_4eb8dd4f3bf74575b44c8331b66c8796.bindPopup(popup_49e674dcc7f945af849ce4942b60c6fb);
+
+            
+        
+    
+
+            var marker_b7367fc499fe4594866e24dbde32a2d2 = L.marker(
+                [41.5798988,-121.5709991],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_ef116b1ba74f462c816748f0f7bfe20f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b7367fc499fe4594866e24dbde32a2d2.setIcon(icon_ef116b1ba74f462c816748f0f7bfe20f);
+            
+    
+            var popup_b728a6a4e8a34f5fa028bcd804a15eef = L.popup({maxWidth: '300'});
+
+            
+                var html_e4f57f7e4f46480e876dd1926c075970 = $('<div id="html_e4f57f7e4f46480e876dd1926c075970" style="width: 100.0%; height: 100.0%;">Name: Medicine Lake | Status: Radiocarbon | Type: Shield volcano</div>')[0];
+                popup_b728a6a4e8a34f5fa028bcd804a15eef.setContent(html_e4f57f7e4f46480e876dd1926c075970);
+            
+
+            marker_b7367fc499fe4594866e24dbde32a2d2.bindPopup(popup_b728a6a4e8a34f5fa028bcd804a15eef);
+
+            
+        
+    
+
+            var marker_b7e9926aae96457a9f3a00e3f6a96e7b = L.marker(
+                [42.8799019,-113.2210007],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_e6d7fb8e3713427e83ba1399eb79d9d6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b7e9926aae96457a9f3a00e3f6a96e7b.setIcon(icon_e6d7fb8e3713427e83ba1399eb79d9d6);
+            
+    
+            var popup_af2345c006c64a7f992419e6b2c394fd = L.popup({maxWidth: '300'});
+
+            
+                var html_f93f4f4bf6f54a8baee94e17a0de15d2 = $('<div id="html_f93f4f4bf6f54a8baee94e17a0de15d2" style="width: 100.0%; height: 100.0%;">Name: Wapi Lava Field | Status: Radiocarbon | Type: Shield volcano</div>')[0];
+                popup_af2345c006c64a7f992419e6b2c394fd.setContent(html_f93f4f4bf6f54a8baee94e17a0de15d2);
+            
+
+            marker_b7e9926aae96457a9f3a00e3f6a96e7b.bindPopup(popup_af2345c006c64a7f992419e6b2c394fd);
+
+            
+        
+    
+
+            var marker_376bfd281ba8461eafc5a190a2eb98a4 = L.marker(
+                [41.419899,-122.2009964],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_be5407ce6e854231a3c069dc98c38fcc = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_376bfd281ba8461eafc5a190a2eb98a4.setIcon(icon_be5407ce6e854231a3c069dc98c38fcc);
+            
+    
+            var popup_4ac5edf4c2194427b44161c55791ca21 = L.popup({maxWidth: '300'});
+
+            
+                var html_4d34a869f50348c99871be803a4207d1 = $('<div id="html_4d34a869f50348c99871be803a4207d1" style="width: 100.0%; height: 100.0%;">Name: Shasta | Status: Historical | Type: Stratovolcano</div>')[0];
+                popup_4ac5edf4c2194427b44161c55791ca21.setContent(html_4d34a869f50348c99871be803a4207d1);
+            
+
+            marker_376bfd281ba8461eafc5a190a2eb98a4.bindPopup(popup_4ac5edf4c2194427b44161c55791ca21);
+
+            
+        
+    
+
+            var marker_d9762787d45444b5890d3ea389910ca0 = L.marker(
+                [41.1778984,-121.4410019],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_86698d9cb09f46c2b7074f48f214169e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d9762787d45444b5890d3ea389910ca0.setIcon(icon_86698d9cb09f46c2b7074f48f214169e);
+            
+    
+            var popup_9b20600982ed4452a86b95782074dacc = L.popup({maxWidth: '300'});
+
+            
+                var html_8dffb16687db453aaa32e5c162e28ec4 = $('<div id="html_8dffb16687db453aaa32e5c162e28ec4" style="width: 100.0%; height: 100.0%;">Name: Brushy Butte | Status: Holocene? | Type: Shield volcano</div>')[0];
+                popup_9b20600982ed4452a86b95782074dacc.setContent(html_8dffb16687db453aaa32e5c162e28ec4);
+            
+
+            marker_d9762787d45444b5890d3ea389910ca0.bindPopup(popup_9b20600982ed4452a86b95782074dacc);
+
+            
+        
+    
+
+            var marker_516a28635c4744cfa1ac8e9a59ab0a43 = L.marker(
+                [40.9548988,-121.3610001],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_c461bb595ba24f349c3475291d94c88e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_516a28635c4744cfa1ac8e9a59ab0a43.setIcon(icon_c461bb595ba24f349c3475291d94c88e);
+            
+    
+            var popup_3537d0b44c9e49e9acec50033532d59e = L.popup({maxWidth: '300'});
+
+            
+                var html_53219a03e64f44e8b870e2d7e40808d7 = $('<div id="html_53219a03e64f44e8b870e2d7e40808d7" style="width: 100.0%; height: 100.0%;">Name: Big Cave | Status: Holocene? | Type: Shield volcano</div>')[0];
+                popup_3537d0b44c9e49e9acec50033532d59e.setContent(html_53219a03e64f44e8b870e2d7e40808d7);
+            
+
+            marker_516a28635c4744cfa1ac8e9a59ab0a43.bindPopup(popup_3537d0b44c9e49e9acec50033532d59e);
+
+            
+        
+    
+
+            var marker_0c6f4f15b2854fbc8ef852be264227ef = L.marker(
+                [40.7798996,-121.6009979],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_f648e65cf7b0414cb156fb9dbaf75214 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0c6f4f15b2854fbc8ef852be264227ef.setIcon(icon_f648e65cf7b0414cb156fb9dbaf75214);
+            
+    
+            var popup_207648e5aa8f43eab17ecea4ff366fb0 = L.popup({maxWidth: '300'});
+
+            
+                var html_e40a39b6f4d74f0b9cf4686d4ed04f5b = $('<div id="html_e40a39b6f4d74f0b9cf4686d4ed04f5b" style="width: 100.0%; height: 100.0%;">Name: Twin Buttes | Status: Holocene? | Type: Cinder cones</div>')[0];
+                popup_207648e5aa8f43eab17ecea4ff366fb0.setContent(html_e40a39b6f4d74f0b9cf4686d4ed04f5b);
+            
+
+            marker_0c6f4f15b2854fbc8ef852be264227ef.bindPopup(popup_207648e5aa8f43eab17ecea4ff366fb0);
+
+            
+        
+    
+
+            var marker_7a512dd0fc4d492ba24cd79f41171bda = L.marker(
+                [40.6799011,-121.5510025],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_80acbf0e56b549b0a77d740304408bbd = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7a512dd0fc4d492ba24cd79f41171bda.setIcon(icon_80acbf0e56b549b0a77d740304408bbd);
+            
+    
+            var popup_03af075e3334406da216e074ef6840ea = L.popup({maxWidth: '300'});
+
+            
+                var html_9071b33ab0614cc8ac00030deaf4c0eb = $('<div id="html_9071b33ab0614cc8ac00030deaf4c0eb" style="width: 100.0%; height: 100.0%;">Name: Tumble Buttes | Status: Holocene? | Type: Cinder cones</div>')[0];
+                popup_03af075e3334406da216e074ef6840ea.setContent(html_9071b33ab0614cc8ac00030deaf4c0eb);
+            
+
+            marker_7a512dd0fc4d492ba24cd79f41171bda.bindPopup(popup_03af075e3334406da216e074ef6840ea);
+
+            
+        
+    
+
+            var marker_4ab0285099f744b5b26ee959dd4f56e8 = L.marker(
+                [40.6299019,-120.8310013],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_584f1f3cb62c401682f45e86f07f9b79 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4ab0285099f744b5b26ee959dd4f56e8.setIcon(icon_584f1f3cb62c401682f45e86f07f9b79);
+            
+    
+            var popup_48936d8fd3324b4c9db88b81b4e15fca = L.popup({maxWidth: '300'});
+
+            
+                var html_5ef91c8b858e4739948c67ca7d8b5732 = $('<div id="html_5ef91c8b858e4739948c67ca7d8b5732" style="width: 100.0%; height: 100.0%;">Name: Eagle Lake Field | Status: Holocene? | Type: Fissure vents</div>')[0];
+                popup_48936d8fd3324b4c9db88b81b4e15fca.setContent(html_5ef91c8b858e4739948c67ca7d8b5732);
+            
+
+            marker_4ab0285099f744b5b26ee959dd4f56e8.bindPopup(popup_48936d8fd3324b4c9db88b81b4e15fca);
+
+            
+        
+    
+
+            var marker_7d4b8b130b3e49c28aff7fae615e1e76 = L.marker(
+                [40.4919014,-121.5009995],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_1ceb4a3a2b4c4274b071cf7e02380f87 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'yellow',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7d4b8b130b3e49c28aff7fae615e1e76.setIcon(icon_1ceb4a3a2b4c4274b071cf7e02380f87);
+            
+    
+            var popup_81405d8818e642f09588946f6cc28ac8 = L.popup({maxWidth: '300'});
+
+            
+                var html_ff68a28645fd4018a629014aca4c39e6 = $('<div id="html_ff68a28645fd4018a629014aca4c39e6" style="width: 100.0%; height: 100.0%;">Name: Lassen Volc Center | Status: Historical | Type: Stratovolcano</div>')[0];
+                popup_81405d8818e642f09588946f6cc28ac8.setContent(html_ff68a28645fd4018a629014aca4c39e6);
+            
+
+            marker_7d4b8b130b3e49c28aff7fae615e1e76.bindPopup(popup_81405d8818e642f09588946f6cc28ac8);
+
+            
+        
+    
+
+            var marker_87642e813ae44ea1ae3320abedb70440 = L.marker(
+                [38.9698982,-122.7710037],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_0379df616741423eb22f183a9b809b8a = L.AwesomeMarkers.icon({
                     icon: 'info-sign',
                     iconColor: 'white',
                     markerColor: 'blue',
                     prefix: 'glyphicon',
                     extraClasses: 'fa-rotate-0'
                     });
-                marker_adfc5a88f8ff43e3af1ac155ec7df05d.setIcon(icon_c8e0ed0bf99444dfbc3a2a4fcc75c488);
+                marker_87642e813ae44ea1ae3320abedb70440.setIcon(icon_0379df616741423eb22f183a9b809b8a);
             
     
-            var popup_cfa8b3bf5b45450c84a30e897f814a11 = L.popup({maxWidth: '300'});
+            var popup_93e122a46c8442b18a1ba5c562bc80ce = L.popup({maxWidth: '300'});
 
             
-                var html_68bfaee2347e42d482b0a53e1b3fca11 = $('<div id="html_68bfaee2347e42d482b0a53e1b3fca11" style="width: 100.0%; height: 100.0%;">This is a marker</div>')[0];
-                popup_cfa8b3bf5b45450c84a30e897f814a11.setContent(html_68bfaee2347e42d482b0a53e1b3fca11);
+                var html_5e1b4883f8734b5994470bd05623e263 = $('<div id="html_5e1b4883f8734b5994470bd05623e263" style="width: 100.0%; height: 100.0%;">Name: Clear Lake | Status: Holocene | Type: Volcanic field</div>')[0];
+                popup_93e122a46c8442b18a1ba5c562bc80ce.setContent(html_5e1b4883f8734b5994470bd05623e263);
             
 
-            marker_adfc5a88f8ff43e3af1ac155ec7df05d.bindPopup(popup_cfa8b3bf5b45450c84a30e897f814a11);
+            marker_87642e813ae44ea1ae3320abedb70440.bindPopup(popup_93e122a46c8442b18a1ba5c562bc80ce);
 
             
         
     
 
-            var marker_5b4b7224e6734a40b2d290028918dae9 = L.marker(
-                [46.73,-120.88],
+            var marker_f6d16a3a22bc490fa625df6a2d65cd86 = L.marker(
+                [39.3749008,-119.7210007],
                 {
                     icon: new L.Icon.Default()
                     }
                 )
-                .addTo(feature_group_6591474e5b8c498f85154bff0fa126b2);
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
             
     
 
-                var icon_d6197651905f41978a062ef64cb2e445 = L.AwesomeMarkers.icon({
+                var icon_e136a4a7b36a47fda0c2c569b5dd83cd = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f6d16a3a22bc490fa625df6a2d65cd86.setIcon(icon_e136a4a7b36a47fda0c2c569b5dd83cd);
+            
+    
+            var popup_ac78744d9cfd418bbc0a1183bab3eb53 = L.popup({maxWidth: '300'});
+
+            
+                var html_6ce5cbfad13c4afd9a3113a2f5cb7706 = $('<div id="html_6ce5cbfad13c4afd9a3113a2f5cb7706" style="width: 100.0%; height: 100.0%;">Name: Steamboat Springs | Status: Pleistocene-Fumarolic | Type: Lava domes</div>')[0];
+                popup_ac78744d9cfd418bbc0a1183bab3eb53.setContent(html_6ce5cbfad13c4afd9a3113a2f5cb7706);
+            
+
+            marker_f6d16a3a22bc490fa625df6a2d65cd86.bindPopup(popup_ac78744d9cfd418bbc0a1183bab3eb53);
+
+            
+        
+    
+
+            var marker_49b8850692854580af333f9458f6e1fc = L.marker(
+                [39.6500015,-107.0309982],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_22ad85c15fc647969dc554d4116709e1 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_49b8850692854580af333f9458f6e1fc.setIcon(icon_22ad85c15fc647969dc554d4116709e1);
+            
+    
+            var popup_cf90d8d39714491680f5250a61de982d = L.popup({maxWidth: '300'});
+
+            
+                var html_7df93af06fb949b8838778193104bcae = $('<div id="html_7df93af06fb949b8838778193104bcae" style="width: 100.0%; height: 100.0%;">Name: Dotsero | Status: Radiocarbon | Type: Maar</div>')[0];
+                popup_cf90d8d39714491680f5250a61de982d.setContent(html_7df93af06fb949b8838778193104bcae);
+            
+
+            marker_49b8850692854580af333f9458f6e1fc.bindPopup(popup_cf90d8d39714491680f5250a61de982d);
+
+            
+        
+    
+
+            var marker_e2d5adfcf07e42edbd7767b3b4a57603 = L.marker(
+                [37.9999008,-119.0309982],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_82ba7d62beba4ea0a57db92fc37ec298 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'black',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e2d5adfcf07e42edbd7767b3b4a57603.setIcon(icon_82ba7d62beba4ea0a57db92fc37ec298);
+            
+    
+            var popup_3edf5e60fc1944e1ac1b02749925a8ac = L.popup({maxWidth: '300'});
+
+            
+                var html_660477b811ce4301835345ebcfee33e8 = $('<div id="html_660477b811ce4301835345ebcfee33e8" style="width: 100.0%; height: 100.0%;">Name: Mono Lake Volc Field | Status: Tephrochronology | Type: Cinder cones</div>')[0];
+                popup_3edf5e60fc1944e1ac1b02749925a8ac.setContent(html_660477b811ce4301835345ebcfee33e8);
+            
+
+            marker_e2d5adfcf07e42edbd7767b3b4a57603.bindPopup(popup_3edf5e60fc1944e1ac1b02749925a8ac);
+
+            
+        
+    
+
+            var marker_403dffeaa88745af94a4ff063588597f = L.marker(
+                [38.9700012,-112.5009995],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_02fa30cada3848a5ae790b796037c4c4 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_403dffeaa88745af94a4ff063588597f.setIcon(icon_02fa30cada3848a5ae790b796037c4c4);
+            
+    
+            var popup_7b7c83606d7a442599f88f606a3f3758 = L.popup({maxWidth: '300'});
+
+            
+                var html_0fec2ed1e2694d798ee5aa2c54989c99 = $('<div id="html_0fec2ed1e2694d798ee5aa2c54989c99" style="width: 100.0%; height: 100.0%;">Name: Black Rock Desert | Status: Radiocarbon | Type: Volcanic field</div>')[0];
+                popup_7b7c83606d7a442599f88f606a3f3758.setContent(html_0fec2ed1e2694d798ee5aa2c54989c99);
+            
+
+            marker_403dffeaa88745af94a4ff063588597f.bindPopup(popup_7b7c83606d7a442599f88f606a3f3758);
+
+            
+        
+    
+
+            var marker_f0a7f9e4749143f782b2f4b5e69e4d48 = L.marker(
+                [37.8799019,-119.0009995],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_277ca74e0a084159acc1c034365530b1 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f0a7f9e4749143f782b2f4b5e69e4d48.setIcon(icon_277ca74e0a084159acc1c034365530b1);
+            
+    
+            var popup_f63e398e33e84b31af704858f2ec3139 = L.popup({maxWidth: '300'});
+
+            
+                var html_e5411aa81a63441e8dec92e0fd0b5d14 = $('<div id="html_e5411aa81a63441e8dec92e0fd0b5d14" style="width: 100.0%; height: 100.0%;">Name: Mono Craters | Status: Radiocarbon | Type: Lava domes</div>')[0];
+                popup_f63e398e33e84b31af704858f2ec3139.setContent(html_e5411aa81a63441e8dec92e0fd0b5d14);
+            
+
+            marker_f0a7f9e4749143f782b2f4b5e69e4d48.bindPopup(popup_f63e398e33e84b31af704858f2ec3139);
+
+            
+        
+    
+
+            var marker_db4e4f9134164f1baaddc7147e9ee1c7 = L.marker(
+                [37.6918983,-119.0210037],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_ae81cb9c04e24424a5639fcdbbfb23f9 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_db4e4f9134164f1baaddc7147e9ee1c7.setIcon(icon_ae81cb9c04e24424a5639fcdbbfb23f9);
+            
+    
+            var popup_8c0f7939f3e8446685601d358698eaa8 = L.popup({maxWidth: '300'});
+
+            
+                var html_92a7660ff4ea44ea8ccba4ecf146d8ad = $('<div id="html_92a7660ff4ea44ea8ccba4ecf146d8ad" style="width: 100.0%; height: 100.0%;">Name: Inyo Craters | Status: Radiocarbon | Type: Lava domes</div>')[0];
+                popup_8c0f7939f3e8446685601d358698eaa8.setContent(html_92a7660ff4ea44ea8ccba4ecf146d8ad);
+            
+
+            marker_db4e4f9134164f1baaddc7147e9ee1c7.bindPopup(popup_8c0f7939f3e8446685601d358698eaa8);
+
+            
+        
+    
+
+            var marker_4de174226e494cc49705218f0bd31f40 = L.marker(
+                [37.6999016,-118.8710022],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_c9c0437673d3415fbffe2bfa91a02d06 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4de174226e494cc49705218f0bd31f40.setIcon(icon_c9c0437673d3415fbffe2bfa91a02d06);
+            
+    
+            var popup_da682eefab6f465184c51ba1760069e0 = L.popup({maxWidth: '300'});
+
+            
+                var html_48e5a36a8be14623b62fd2facec8112f = $('<div id="html_48e5a36a8be14623b62fd2facec8112f" style="width: 100.0%; height: 100.0%;">Name: Long Valley | Status: Pleistocene-Fumarolic | Type: Caldera</div>')[0];
+                popup_da682eefab6f465184c51ba1760069e0.setContent(html_48e5a36a8be14623b62fd2facec8112f);
+            
+
+            marker_4de174226e494cc49705218f0bd31f40.bindPopup(popup_da682eefab6f465184c51ba1760069e0);
+
+            
+        
+    
+
+            var marker_7b53b3cf981c47a795205b8b5c859601 = L.marker(
+                [37.5798988,-119.0510025],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_d76ab7f8daf644e3864531774e04ad84 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7b53b3cf981c47a795205b8b5c859601.setIcon(icon_d76ab7f8daf644e3864531774e04ad84);
+            
+    
+            var popup_72f2ac390a7c4751bf1c3d5be678e5cb = L.popup({maxWidth: '300'});
+
+            
+                var html_fbfd4b8bb7324bf9a121b9942a245ae7 = $('<div id="html_fbfd4b8bb7324bf9a121b9942a245ae7" style="width: 100.0%; height: 100.0%;">Name: Red Cones | Status: Radiocarbon | Type: Cinder cones</div>')[0];
+                popup_72f2ac390a7c4751bf1c3d5be678e5cb.setContent(html_fbfd4b8bb7324bf9a121b9942a245ae7);
+            
+
+            marker_7b53b3cf981c47a795205b8b5c859601.bindPopup(popup_72f2ac390a7c4751bf1c3d5be678e5cb);
+
+            
+        
+    
+
+            var marker_6308acdffbc54de6af7ea8232071c6aa = L.marker(
+                [37.0199013,-117.4509964],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_b5ab78a4d01848ce9847a0152921b17f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6308acdffbc54de6af7ea8232071c6aa.setIcon(icon_b5ab78a4d01848ce9847a0152921b17f);
+            
+    
+            var popup_44dba0b4d71f48c5bfef9b1b339ca791 = L.popup({maxWidth: '300'});
+
+            
+                var html_2120ce74cfd84a2f843dc1d22bf73bb0 = $('<div id="html_2120ce74cfd84a2f843dc1d22bf73bb0" style="width: 100.0%; height: 100.0%;">Name: Ubehebe Craters | Status: Anthropology | Type: Maars</div>')[0];
+                popup_44dba0b4d71f48c5bfef9b1b339ca791.setContent(html_2120ce74cfd84a2f843dc1d22bf73bb0);
+            
+
+            marker_6308acdffbc54de6af7ea8232071c6aa.bindPopup(popup_44dba0b4d71f48c5bfef9b1b339ca791);
+
+            
+        
+    
+
+            var marker_5645803c8c9147b5b999faaa53162eb7 = L.marker(
+                [37.5800018,-112.6709976],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_8c469afdb6bb4b889cfb564827cd0939 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5645803c8c9147b5b999faaa53162eb7.setIcon(icon_8c469afdb6bb4b889cfb564827cd0939);
+            
+    
+            var popup_94c16f36aa0944989e229d71d145013e = L.popup({maxWidth: '300'});
+
+            
+                var html_244ca1fb4c1f4c97bea2d002f92fc974 = $('<div id="html_244ca1fb4c1f4c97bea2d002f92fc974" style="width: 100.0%; height: 100.0%;">Name: Markagunt Plateau | Status: Dendrochronology | Type: Volcanic field</div>')[0];
+                popup_94c16f36aa0944989e229d71d145013e.setContent(html_244ca1fb4c1f4c97bea2d002f92fc974);
+            
+
+            marker_5645803c8c9147b5b999faaa53162eb7.bindPopup(popup_94c16f36aa0944989e229d71d145013e);
+
+            
+        
+    
+
+            var marker_ee3bdb13452d425b827cc0237c32ceae = L.marker(
+                [37.257,-113.6210022],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_eb9e8a669e174317890a9e26c57868da = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ee3bdb13452d425b827cc0237c32ceae.setIcon(icon_eb9e8a669e174317890a9e26c57868da);
+            
+    
+            var popup_1e8a5d9fa6b94b7a9b05118f548d4b99 = L.popup({maxWidth: '300'});
+
+            
+                var html_776cbd44db014950bfcdb140d2ad314b = $('<div id="html_776cbd44db014950bfcdb140d2ad314b" style="width: 100.0%; height: 100.0%;">Name: Santa Clara | Status: Holocene? | Type: Volcanic field</div>')[0];
+                popup_1e8a5d9fa6b94b7a9b05118f548d4b99.setContent(html_776cbd44db014950bfcdb140d2ad314b);
+            
+
+            marker_ee3bdb13452d425b827cc0237c32ceae.bindPopup(popup_1e8a5d9fa6b94b7a9b05118f548d4b99);
+
+            
+        
+    
+
+            var marker_8c570119a1684b149292ab93632381af = L.marker(
+                [37.3279991,-112.401001],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_a4ece40a4707445f97154d969bb5e965 = L.AwesomeMarkers.icon({
                     icon: 'info-sign',
                     iconColor: 'white',
                     markerColor: 'blue',
                     prefix: 'glyphicon',
                     extraClasses: 'fa-rotate-0'
                     });
-                marker_5b4b7224e6734a40b2d290028918dae9.setIcon(icon_d6197651905f41978a062ef64cb2e445);
+                marker_8c570119a1684b149292ab93632381af.setIcon(icon_a4ece40a4707445f97154d969bb5e965);
             
     
-            var popup_35da1b03ae724a698b0ce755ee949e28 = L.popup({maxWidth: '300'});
+            var popup_dd573cdf2e824c4d9468fca58fea23e6 = L.popup({maxWidth: '300'});
 
             
-                var html_64e97829f7804db9aacd56e8bcea7107 = $('<div id="html_64e97829f7804db9aacd56e8bcea7107" style="width: 100.0%; height: 100.0%;">This is a marker</div>')[0];
-                popup_35da1b03ae724a698b0ce755ee949e28.setContent(html_64e97829f7804db9aacd56e8bcea7107);
+                var html_f9475609bd24435584255c6740551e28 = $('<div id="html_f9475609bd24435584255c6740551e28" style="width: 100.0%; height: 100.0%;">Name: Bald Knoll | Status: Holocene | Type: Cinder cones</div>')[0];
+                popup_dd573cdf2e824c4d9468fca58fea23e6.setContent(html_f9475609bd24435584255c6740551e28);
             
 
-            marker_5b4b7224e6734a40b2d290028918dae9.bindPopup(popup_35da1b03ae724a698b0ce755ee949e28);
+            marker_8c570119a1684b149292ab93632381af.bindPopup(popup_dd573cdf2e824c4d9468fca58fea23e6);
 
             
         
     
 
-            var marker_d55408cde6d641b4921938bff6658963 = L.marker(
-                [45.73,-121.38],
+            var marker_f9244de811c14cec88eedcf8fcff13a5 = L.marker(
+                [36.3578987,-118.3209991],
                 {
                     icon: new L.Icon.Default()
                     }
                 )
-                .addTo(feature_group_6591474e5b8c498f85154bff0fa126b2);
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
             
     
 
-                var icon_6ae3c1997c714536a6d0cba66f0b0c7e = L.AwesomeMarkers.icon({
+                var icon_2ec2b99fa1754f90862de2dcae0ce32f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f9244de811c14cec88eedcf8fcff13a5.setIcon(icon_2ec2b99fa1754f90862de2dcae0ce32f);
+            
+    
+            var popup_2a426b4dd422409da80fef8bee1ea47c = L.popup({maxWidth: '300'});
+
+            
+                var html_5a2a0217a835471eb2f4a3b652ef603d = $('<div id="html_5a2a0217a835471eb2f4a3b652ef603d" style="width: 100.0%; height: 100.0%;">Name: Golden Trout Creek | Status: Tephrochronology | Type: Volcanic field</div>')[0];
+                popup_2a426b4dd422409da80fef8bee1ea47c.setContent(html_5a2a0217a835471eb2f4a3b652ef603d);
+            
+
+            marker_f9244de811c14cec88eedcf8fcff13a5.bindPopup(popup_2a426b4dd422409da80fef8bee1ea47c);
+
+            
+        
+    
+
+            var marker_2f5e945db30f47d4a058581569839551 = L.marker(
+                [36.0298996,-117.8209991],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_592c4a9aa2454ed38eedd4010db3fb87 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2f5e945db30f47d4a058581569839551.setIcon(icon_592c4a9aa2454ed38eedd4010db3fb87);
+            
+    
+            var popup_3b7689df79504156831171427b8b4b30 = L.popup({maxWidth: '300'});
+
+            
+                var html_1e7b5f5e66c2400eb47a0c122d41c749 = $('<div id="html_1e7b5f5e66c2400eb47a0c122d41c749" style="width: 100.0%; height: 100.0%;">Name: Coso Volc Field | Status: Holocene? | Type: Lava domes</div>')[0];
+                popup_3b7689df79504156831171427b8b4b30.setContent(html_1e7b5f5e66c2400eb47a0c122d41c749);
+            
+
+            marker_2f5e945db30f47d4a058581569839551.bindPopup(popup_3b7689df79504156831171427b8b4b30);
+
+            
+        
+    
+
+            var marker_9afea518242640d6a9c91aefc63c622f = L.marker(
+                [36.3800011,-113.1309967],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_9e195e7a75c44e3d87d06ff2e6264fe5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9afea518242640d6a9c91aefc63c622f.setIcon(icon_9e195e7a75c44e3d87d06ff2e6264fe5);
+            
+    
+            var popup_3c1f108c29fe4af2bee440709e2aedeb = L.popup({maxWidth: '300'});
+
+            
+                var html_4ed8bc9dc583476eb0fe20cfad096190 = $('<div id="html_4ed8bc9dc583476eb0fe20cfad096190" style="width: 100.0%; height: 100.0%;">Name: Uinkaret Field | Status: Anthropology | Type: Volcanic field</div>')[0];
+                popup_3c1f108c29fe4af2bee440709e2aedeb.setContent(html_4ed8bc9dc583476eb0fe20cfad096190);
+            
+
+            marker_9afea518242640d6a9c91aefc63c622f.bindPopup(popup_3c1f108c29fe4af2bee440709e2aedeb);
+
+            
+        
+    
+
+            var marker_7564f7e1761d463ea04b1d098dee664d = L.marker(
+                [34.75,-116.6210022],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_6897eaea88c84f67bb13f11781fbe6e7 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7564f7e1761d463ea04b1d098dee664d.setIcon(icon_6897eaea88c84f67bb13f11781fbe6e7);
+            
+    
+            var popup_73421e9dee5f402990cd8f01057f9c28 = L.popup({maxWidth: '300'});
+
+            
+                var html_ee78d7f593c849a4894dafb7570a23b0 = $('<div id="html_ee78d7f593c849a4894dafb7570a23b0" style="width: 100.0%; height: 100.0%;">Name: Lavic Lake | Status: Holocene? | Type: Volcanic field</div>')[0];
+                popup_73421e9dee5f402990cd8f01057f9c28.setContent(html_ee78d7f593c849a4894dafb7570a23b0);
+            
+
+            marker_7564f7e1761d463ea04b1d098dee664d.bindPopup(popup_73421e9dee5f402990cd8f01057f9c28);
+
+            
+        
+    
+
+            var marker_8dd056dc97074cfea6de8f0ceec946a4 = L.marker(
+                [35.8699989,-106.5709991],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_9358dc7cd9644df2b0e50f55ff1a336e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8dd056dc97074cfea6de8f0ceec946a4.setIcon(icon_9358dc7cd9644df2b0e50f55ff1a336e);
+            
+    
+            var popup_f5fe6cbeaad448848dee48be74a6602d = L.popup({maxWidth: '300'});
+
+            
+                var html_8fe561e01f7d4163b04ca4f789aa38fa = $('<div id="html_8fe561e01f7d4163b04ca4f789aa38fa" style="width: 100.0%; height: 100.0%;">Name: Valles Caldera | Status: Pleistocene-Fumarolic | Type: Caldera</div>')[0];
+                popup_f5fe6cbeaad448848dee48be74a6602d.setContent(html_8fe561e01f7d4163b04ca4f789aa38fa);
+            
+
+            marker_8dd056dc97074cfea6de8f0ceec946a4.bindPopup(popup_f5fe6cbeaad448848dee48be74a6602d);
+
+            
+        
+    
+
+            var marker_cdc685bd15fe40e088dabcea45db99ef = L.marker(
+                [35.3699989,-111.5009995],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_0abc54e3a7754952a44270ff7c1153a5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cdc685bd15fe40e088dabcea45db99ef.setIcon(icon_0abc54e3a7754952a44270ff7c1153a5);
+            
+    
+            var popup_8f73c87f1a0540359dee8eba0258a9fe = L.popup({maxWidth: '300'});
+
+            
+                var html_d6d4410206ce4e1ca873a44678bf8264 = $('<div id="html_d6d4410206ce4e1ca873a44678bf8264" style="width: 100.0%; height: 100.0%;">Name: Sunset Crater | Status: Dendrochronology | Type: Cinder cone</div>')[0];
+                popup_8f73c87f1a0540359dee8eba0258a9fe.setContent(html_d6d4410206ce4e1ca873a44678bf8264);
+            
+
+            marker_cdc685bd15fe40e088dabcea45db99ef.bindPopup(popup_8f73c87f1a0540359dee8eba0258a9fe);
+
+            
+        
+    
+
+            var marker_465625447af346598117171c3eed337d = L.marker(
+                [34.5499992,-115.7809982],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_aeedca13b2e34aa88191362e92f262e4 = L.AwesomeMarkers.icon({
                     icon: 'info-sign',
                     iconColor: 'white',
                     markerColor: 'blue',
                     prefix: 'glyphicon',
                     extraClasses: 'fa-rotate-0'
                     });
-                marker_d55408cde6d641b4921938bff6658963.setIcon(icon_6ae3c1997c714536a6d0cba66f0b0c7e);
+                marker_465625447af346598117171c3eed337d.setIcon(icon_aeedca13b2e34aa88191362e92f262e4);
             
     
-            var popup_b9a076186db8406b92c35a5e0e2695ce = L.popup({maxWidth: '300'});
+            var popup_e0c5f8bc7307471ca12a21d730945289 = L.popup({maxWidth: '300'});
 
             
-                var html_43c685489fdc4f8aa101fbd57515490c = $('<div id="html_43c685489fdc4f8aa101fbd57515490c" style="width: 100.0%; height: 100.0%;">This is a marker</div>')[0];
-                popup_b9a076186db8406b92c35a5e0e2695ce.setContent(html_43c685489fdc4f8aa101fbd57515490c);
+                var html_4f4f9ad326474e59a3fe3a0e80e4cf83 = $('<div id="html_4f4f9ad326474e59a3fe3a0e80e4cf83" style="width: 100.0%; height: 100.0%;">Name: Amboy | Status: Holocene | Type: Cinder cone</div>')[0];
+                popup_e0c5f8bc7307471ca12a21d730945289.setContent(html_4f4f9ad326474e59a3fe3a0e80e4cf83);
             
 
-            marker_d55408cde6d641b4921938bff6658963.bindPopup(popup_b9a076186db8406b92c35a5e0e2695ce);
+            marker_465625447af346598117171c3eed337d.bindPopup(popup_e0c5f8bc7307471ca12a21d730945289);
+
+            
+        
+    
+
+            var marker_a0b15ebdad3540e89fc37b45004db2b5 = L.marker(
+                [34.7999992,-108.0009995],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_63d6557dbd384b4d84a3b664abb21733 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a0b15ebdad3540e89fc37b45004db2b5.setIcon(icon_63d6557dbd384b4d84a3b664abb21733);
+            
+    
+            var popup_330eab3a5eff46e3a248fef9b3a49881 = L.popup({maxWidth: '300'});
+
+            
+                var html_982c7b30baac46469abc3118b8783403 = $('<div id="html_982c7b30baac46469abc3118b8783403" style="width: 100.0%; height: 100.0%;">Name: Zuni-Bandera | Status: Anthropology | Type: Volcanic field</div>')[0];
+                popup_330eab3a5eff46e3a248fef9b3a49881.setContent(html_982c7b30baac46469abc3118b8783403);
+            
+
+            marker_a0b15ebdad3540e89fc37b45004db2b5.bindPopup(popup_330eab3a5eff46e3a248fef9b3a49881);
+
+            
+        
+    
+
+            var marker_fc72f4df961b43a28ff8341d597b0a5a = L.marker(
+                [33.7801018,-105.9309998],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_78c75baabeb0415291c902e43b1e3023);
+            
+    
+
+                var icon_b4cfa41c300c49c5b7758d823854dbb2 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fc72f4df961b43a28ff8341d597b0a5a.setIcon(icon_b4cfa41c300c49c5b7758d823854dbb2);
+            
+    
+            var popup_bae0d6d473c748d7962b3acb14c52ffd = L.popup({maxWidth: '300'});
+
+            
+                var html_855b58e148884d07af15ec00c391d9ca = $('<div id="html_855b58e148884d07af15ec00c391d9ca" style="width: 100.0%; height: 100.0%;">Name: Carrizozo | Status: Holocene | Type: Cinder cone</div>')[0];
+                popup_bae0d6d473c748d7962b3acb14c52ffd.setContent(html_855b58e148884d07af15ec00c391d9ca);
+            
+
+            marker_fc72f4df961b43a28ff8341d597b0a5a.bindPopup(popup_bae0d6d473c748d7962b3acb14c52ffd);
 
             
         
