@@ -1,4 +1,4 @@
-import folium, pandas
+import folium, pandas, random
 
 map = folium.Map(location=[47.73, -121.88], zoom_start=6, tiles="Mapbox Bright")
 
@@ -10,12 +10,7 @@ lat = list(data["LAT"])
 lon = list(data["LON"])
 info = list("Name: " + data["NAME"] + " | Status: " + data["STATUS"] + " | Type: " + data["TYPE"])
 time = list(data["TIMEFRAME"])
-
-# fg.add_child(folium.Marker(location=[47.73, -121.88], popup="This is a marker", icon=folium.Icon(color="blue")))
-# fg.add_child(folium.Marker(location=[46.73, -120.88], popup="This is a marker", icon=folium.Icon(color="blue")))
-#
-# for i in range(len(lat)):
-#     fg.add_child(folium.Marker(location=(int(lat[i]),int(lon[i])), popup=name[i], icon=folium.Icon(color="blue")))
+elev = list(data["ELEV"])
 
 def color_select(tm):
     if tm == "D7":
@@ -36,9 +31,20 @@ def color_select(tm):
         return "pink"
     else:
         return "green"
+def radius_select(el):
+    if el < 1000:
+        return 5
+    elif el < 2000:
+        return 10
+    elif el < 3000:
+        return 15
+    elif el < 4000:
+        return 20
+    else:
+        return 25
 
-for lt,ln,nf,tm in zip(lat, lon, info, time):
-    fg.add_child(folium.Marker(location=(lt,ln), popup=nf, icon=folium.Icon(color=color_select(tm))))
+for lt,ln,nf,tm,el in zip(lat, lon, info, time, elev):
+    fg.add_child(folium.CircleMarker(location=(lt,ln), radius=radius_select(el), weight=2, popup=nf, color="black", fill_opacity=.7, fill_color=color_select(tm)))
 
 map.add_child(fg)
 
