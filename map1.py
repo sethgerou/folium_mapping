@@ -1,8 +1,8 @@
 import folium, pandas, random
 
-map = folium.Map(location=[47.73, -121.88], zoom_start=6, tiles="Mapbox Bright")
+map = folium.Map(location=[47.73, -121.88], zoom_start=6)
 
-fg = folium.FeatureGroup(name="my map")
+fgv= folium.FeatureGroup(name="Volcanoes")
 
 data = pandas.read_csv("Volcanoes.csv")
 
@@ -45,7 +45,18 @@ def radius_select(el):
         return 25
 
 for lt,ln,nf,tm,el in zip(lat, lon, info, time, elev):
-    fg.add_child(folium.CircleMarker(location=(lt,ln), radius=radius_select(el), weight=2, popup=nf, color="black", fill_opacity=.7, fill_color=color_select(tm)))
+    fgv.add_child(folium.CircleMarker(location=(lt,ln), radius=radius_select(el), weight=2, popup=nf, color="black", fill_opacity=.7, fill_color=color_select(tm)))
 
-map.add_child(fg)
+fgp = folium.FeatureGroup(name="Population")
+
+fgp.add_child(folium.GeoJson(data=open("world.json", "r", encoding="utf-8-sig"),
+style_function=lambda x: {"fillColor":"green" if x["properties"]['POP2005'] < 1000000
+else "orange" if 1000000 <= x["properties"]["POP2005"] < 20000000
+else "purple" if 20000000 <= x["properties"]["POP2005"] < 70000000
+else "yellow" if 70000000 <= x["properties"]["POP2005"] < 200000000
+else "red"}))
+
+map.add_child(fgv)
+map.add_child(fgp)
+map.add_child(folium.LayerControl())
 map.save("map1.html")
