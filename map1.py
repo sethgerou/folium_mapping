@@ -31,6 +31,7 @@ def color_select(tm):
         return "pink"
     else:
         return "green"
+
 def radius_select(el):
     if el < 1000:
         return 5
@@ -47,5 +48,4 @@ for lt,ln,nf,tm,el in zip(lat, lon, info, time, elev):
     fg.add_child(folium.CircleMarker(location=(lt,ln), radius=radius_select(el), weight=2, popup=nf, color="black", fill_opacity=.7, fill_color=color_select(tm)))
 
 map.add_child(fg)
-
 map.save("map1.html")
